@@ -1,0 +1,72 @@
+body {
+  font-family: Impact, Arial, Helvetica, sans-serif, "Arial Narrow Bold",
+    sans-serif;
+  background: #deeeeb;
+}
+
+header {
+  text-align: center;
+  color: #006b92;
+  padding: 15px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.container {
+  /* display: grid;
+	grid-template-columns: 40px 1fr; */
+  height: auto;
+  width: auto;
+  background: #42cc98;
+  margin: auto;
+  padding: 5px;
+  border-radius: 8px;
+  justify-self: center;
+  margin-left: 5%;
+}
+
+#div1 {
+  margin: 5px;
+  font-size: 1.25em;
+}
+
+table {
+  border-radius: 8px;
+  border: 1px solid #42cc98;
+  padding-left: 12%;
+}
+
+td {
+  border: 2px solid #396ea3;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+table img {
+  align-self: center;
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.inputForm {
+  float: left;
+  padding-top: 20%;
+  padding-right: 1%;
+  width: 250px;
+}
+
+input {
+  width: 50%;
+}
+
+button {
+  width: 50%;
+  margin: 1em;
+}

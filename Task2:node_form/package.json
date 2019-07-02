@@ -1,0 +1,20 @@
+{
+  "name": "formTemplate",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}

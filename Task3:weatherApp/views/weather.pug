@@ -1,0 +1,49 @@
+DOCTYPE(html)
+html
+    head
+        title(Weather-forecast)
+        link(rel="stylesheet" href="temperature.css")
+    body
+       section
+           div(class="")
+               
+               h1(class="title") Weather-forecast
+
+       section(class="section")
+            div(class="")
+                div(class="")
+                    div(class="")
+                        form(method="GET", action="/weather")
+                            div(class="")
+                                div(class="")
+                                    input(id="input", class="input", name="input" type="text", placeholder="City Name")
+                                div(class="")
+                                    button(class="") Add City
+    block default 
+       section(class="section")
+            div(class="")
+                div(class="")
+                    div(class="")
+                        div(class="")
+                            article(class="")
+                                div(class="")
+                                    
+                                div(class="")
+                                    div(class="")
+                                    p
+                                        span(class="title" id="city")
+                                        br
+                                        span(class="" id="temp") &deg
+                                        br
+                                        span(id="description")
+    footer(class="footer")
+            
+        
+    block script
+        script.
+                document.getElementById('city').innerHTML = "#{city}"
+                document.getElementById('temp').innerHTML = "#{temperature}"
+                document.getElementById('description').innerHTML = "#{description}"
+
+
+    

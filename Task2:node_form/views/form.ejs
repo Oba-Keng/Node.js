@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+    <div style="text-align: center";>
+    
+        <h1>Travel Authorization form</h1>
+
+    </div>
+        <section>
+        <form id='contact-form' method="POST" action="/form">
+            
+            <div>
+                <h1>Section A: Client Information</h1>
+                <hr>
+                <br>
+            </div>
+            <label for="title">Title</label>
+            <input type="text" name="title">
+            <br>
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName">
+            <br>
+            <label for="initials">Middle Initial</label>
+            <input type="text" name="initials">
+            <br>
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName">
+            <br>
+            <label for="department">Which department</label>
+            <input type="text" name="department">
+            <br>
+            <label for="email">Email-address</label>
+            <input type="email" name="email"/>
+            
+            <br>
+            <label for="number">Phone Number:</label>
+            <input type="text" name="number">
+        
+        </section>
+            <section>
+                
+            
+                <div>
+                    <h1>Section B: Travel Information</h1>
+                    <hr>
+                </div>
+                    
+                   AirLine Name: <select name="AirLine Name" for="ORTambo" for="Lanceria" 
+                   for="Hearthrow" , for="LAX" , for="Mango">
+
+                    <option type="text" value="ORTAMBO">ORTambo</option>
+                    <option value="Lanceria"type="text" >Lanceria</option>
+                    <option value="Hearthrow"type="text" >Hearthrow</option>
+                    <option value="LAX"type="text" >LAX</option>
+                    <option value="Mango" type="text" >Mango</option>
+                 </select>
+                    <br>
+                    <label for="Destination">Destination</label>
+                    <input type="text" name="Destination">
+                    <br>
+                    <label for="leaveDate">Leave Date</label>
+                    <input type="date" name="leaveDate" >
+                    <br>
+                    <label for="Return Date">Return Date</label>
+                    <input type="date" name="Return Date" >
+                    <br>
+                    <label for="Cost">Estimated Cost</label>
+                    <input type="text" name="Cost">
+                    <br>
+                    <br>
+                    Includes Customer <br> visit?
+                     <input type="checkbox" value="check" for="customer visit" name="customer visit">
+                     <br>
+                     <br>
+                    Additional Estimated expenses:<br>Car Rental <input type="text" for="carRental" name="carRental"></input><br>
+                    Hotel <input type="text" for="Hotel" name="Hotel"></input><br>
+                    Meals <input type="text" for=" Meals" name="Meals"></input><br>
+                    Total Estimate <input type="text" for="Total Estimate" name="Total Estimate"></input>
+           
+                     <br>
+                     <br>
+                     Payment Method Used: 
+                     <input type="radio" for="Cash" name="Cash" >Cash</input>
+                     <input type="radio" for="Card" name="Card">Credit Card</input>
+                     <input type="radio" for="Cheque" name="Cheque">Cheque</input>
+                    
+                     <br>
+                     <br>
+                     <br>
+                     Purpose of Travel:<br>
+                     <textarea type="comment" size="2.0em"
+                     scroll="true" for="POT" name="POT">
+                     </textarea>
+                     <input type="submit">
+
+                </form>
+            </section>
+            
+        <script src="app.js"></script>
+    </body>
+</html>
