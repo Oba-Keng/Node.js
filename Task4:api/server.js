@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const express = require("express");
 const bodyParser = require("body-parser");
-var postman = require("postman");
+const postman = require("postman");
 const routes = require("./routes/api");
 
 //setup express app
